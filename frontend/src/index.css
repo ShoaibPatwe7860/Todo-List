@@ -1,0 +1,149 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.task-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.task-name {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.completed-notice {
+  color: green;
+  font-weight: bold;
+}
+
+#edit-link {
+  margin-top: 10px;
+  padding: 8px 15px;
+  /* background-color: #f0ad4e; */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#delete-btn {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 8px 15px;
+  /* background-color: #f0ad4e; */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .edit-link:hover,
+.delete-btn:hover {
+  background-color: #ee9f43;
+} */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.edit-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.edit-input,
+.checkbox-input {
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#edit-btn {
+  padding: 10px 20px;
+  background-color: #07a922;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#close-btn {
+  padding: 10px 20px;
+  background-color: #db1717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* .edit-btn:hover,
+.close-btn:hover {
+  background-color: #0056b3;
+} */
+
+.h1 {
+  text-align: center;
+  font-weight: bolder;
+}
